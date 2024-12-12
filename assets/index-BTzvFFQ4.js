@@ -14845,7 +14845,7 @@ function Km({ className: A }) {
     })
   );
 }
-const l4 = "/assets/banner-img-WcHNHk8h.png",
+const l4 = "/assets/banner_animation.gif",
   u4 =
     "data:image/png;base64,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",
   c4 = "/assets/title-style-2-CvCY_8Zp.png",
@@ -15143,7 +15143,7 @@ function pp() {
             Q.jsx("h4", {
               className:
                 "mb-0 text-uppercase text-black text-xl xl:text-[34px] leading-[1.5]",
-              children: "$BULL",
+              children: "$BUMAS",
             }),
           ],
         })
@@ -15278,7 +15278,7 @@ function F4() {
                       className:
                         'text-black text-[18px] md:text-[20px] lg:md:text-[20px] xl:md:text-[30px] leading-[150%] capitalize font-["Poppins"] max-w-[867px] w-full pt-5 text-center lg:text-left',
                       children:
-                        "BUMAS is the most bullish memecoin on the SUI network! Part robot, part bull, you'll see him popping up all over the place on his mission to become the unofficial mascot of SUI. Join in the fun with the community, the good vibes and the be bullish on BUMAS!",
+                        "$BUMAS is the bullish Christmas Spirit the Solana network! Part spirit, part bull, you'll see him popping up all over the place on his mission to become the Christmas mascot of Solana Join in the fun with the community, the good vibes and the be bullish on Solana  BULL!",
                     }),
                   ],
                 }),
@@ -15404,9 +15404,9 @@ const H4 = "/assets/tokenmos-img-CGrEXnA0.png",
   Wf = "/assets/about-tp-shap-D3UDAV7U.png";
 function b4() {
   const A = [
-    { title: "Token Name", subtitle: "BUMAS" },
-    { title: "Symbol", subtitle: "$Bull" },
-    { title: "Total Supply", subtitle: "10B" },
+    { title: "Token Name", subtitle: "Bumas the Spirit" },
+    { title: "Symbol", subtitle: "$BUMAS" },
+    { title: "Total Supply", subtitle: "1B" },
     { title: "Tax", subtitle: "0%" },
   ];
   return Q.jsxs("div", {
