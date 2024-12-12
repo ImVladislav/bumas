@@ -1692,7 +1692,7 @@ input[type=number] {
     top: 38px;
     left: 0;
     width: 100px; /* Початковий розмір */
-    height: 100px; /* Початковий розмір */
+
 
     background-size: cover;
     background-position: center;
