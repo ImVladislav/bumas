@@ -1596,38 +1596,81 @@ input[type=number] {
     padding-top: 216px;
     --stroke: 4px;
     position: relative; /* Встановлюємо відносну позицію для батьківського елемента */
-    overflow: hidden; /* Приховуємо все, що виходить за межі блоку */
+    overflow: visible; /* Дозволяємо елементам виходити за межі блоку */
 }
 
 .banner::before {
     content: ""; /* Створюємо псевдоелемент */
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%; /* Центруємо по вертикалі */
+    left: 50%; /* Центруємо по горизонталі */
+    transform: translate(-50%, -50%); /* Центруємо зображення */
+    width: 130%; /* Робимо картинку більшою, щоб вона виходила за межі */
+    height: 150%; /* Пропорційно висота дорівнює ширині, щоб утворилося коло */
     background-image: url(banner-bg-D9a6L5nQ.png);
-    background-size: cover;
+    background-size: cover; /* Картинка займає весь доступний простір */
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 250%; /* Додаємо ефект кола */
     z-index: -1; /* Розташовуємо псевдоелемент позаду контенту */
-    animation: rotateImage 10s linear infinite; /* Додаємо анімацію */
+    animation: rotateImage 20s linear infinite; /* Додаємо анімацію */
 }
 
 /* Ключові кадри для обертання */
 @keyframes rotateImage {
     from {
-        transform: rotate(0deg); /* Початкова позиція */
+        transform: translate(-50%, -50%) rotate(0deg); /* Початкова позиція */
     }
     to {
-        transform: rotate(360deg); /* Завершення оберту */
+        transform: translate(-50%, -50%) rotate(360deg); /* Завершення оберту */
     }
+}
+
+/* Ключові кадри для обертання */
+@keyframes rotateImage {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg); /* Початкова позиція */
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg); /* Завершення оберту */
+    }
+}
+@media only screen and (min-width: 2024px) and (max-width: 2460px) {
+    .banner::before {
+
+        width: 100%; /* Робимо картинку більшою, щоб вона виходила за межі */
+        height: 200%; /* Пропорційно висота дорівнює ширині, щоб утворилося коло */
+        border-radius: 250%; /* Додаємо ефект кола */
+    }
+}
+@media only screen and (min-width: 1280px) and (max-width: 2024px) {
+    .banner::before {
+
+        width: 130%; /* Робимо картинку більшою, щоб вона виходила за межі */
+        height: 200%; /* Пропорційно висота дорівнює ширині, щоб утворилося коло */
+        border-radius: 250%; /* Додаємо ефект кола */
+    }
+}
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+    .banner::before {
+
+        width: 130%; /* Робимо картинку більшою, щоб вона виходила за межі */
+        height: 150%; /* Пропорційно висота дорівнює ширині, щоб утворилося коло */
+        border-radius: 250%; /* Додаємо ефект кола */
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+    .banner {
+        padding-top: 180px
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1279px) {
     .banner {
         padding-top: 180px
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

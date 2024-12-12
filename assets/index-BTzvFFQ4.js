@@ -15584,7 +15584,7 @@ const M4 = "/assets/maker-img-D8MpR8wU.png";
 function _4() {
   return null
 }
-const k4 = "/assets/footer-logo-BKZjRE25.png",
+const k4 = "/assets/logo-zeLxvy5t.png",
   P4 = "/assets/footer-top-shape--i4_h7B0.png",
   V4 = "/assets/footer-style-19j15BnH.png",
   G4 = "/assets/footer-bg-shape-C9jY5_4z.png";
