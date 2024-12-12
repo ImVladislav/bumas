@@ -1,0 +1,20 @@
+Uri: https://suibull.lol/
+File Name: C:\Downloaded Web Sites\suibull.lol\index.htm
+Content Type: text/html
+
+Uri: https://suibull.lol/assets/banner-bg-D9a6L5nQ.png
+File Name: C:\Downloaded Web Sites\suibull.lol\assets\banner-bg-D9a6L5nQ.png
+Content Type: image/png
+
+Uri: https://suibull.lol/assets/index-B1Nn6VHY.css
+File Name: C:\Downloaded Web Sites\suibull.lol\assets\index-B1Nn6VHY.css
+Content Type: text/css
+
+Uri: https://suibull.lol/assets/index-BTzvFFQ4.js
+File Name: C:\Downloaded Web Sites\suibull.lol\assets\index-BTzvFFQ4.js
+Content Type: text/javascript
+
+Uri: https://suibull.lol/favicon.png
+File Name: C:\Downloaded Web Sites\suibull.lol\favicon.png
+Content Type: image/png
+
