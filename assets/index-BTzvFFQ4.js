@@ -14659,8 +14659,8 @@ function i4(A) {
     ],
   })(A);
 }
-const o4 = "https://t.co/6uWR7N2xrW",
-  a4 = "https://x.com/suibullmeme";
+const o4 = "https://t.me/BumasCoin",
+  a4 = "https://x.com/BumasCoin";
 function DB({ className: A }) {
   const e = [
     { name: "telegram", icon: Q.jsx(n4, {}), url: o4 },
@@ -15217,16 +15217,18 @@ const v4 = "/assets/about-img-Drj7CRQ5.png",
   C4 = "/assets/scanner-Cv-TSM07.svg",
   Q4 =
     "data:image/svg+xml,%3csvg%20width='34'%20height='30'%20viewBox='0%200%2034%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M32.8416%200.412412C32.2787%20-0.0645891%2031.3945%20-0.132839%2030.4803%200.233912H30.4788C29.5174%200.619413%203.26336%2011.8724%202.19458%2012.3322C2.00019%2012.3997%200.302461%2013.0327%200.477337%2014.4427C0.633451%2015.714%201.99794%2016.2405%202.16456%2016.3012L8.83915%2018.585C9.28197%2020.058%2010.9144%2025.4925%2011.2754%2026.6535C11.5006%2027.3772%2011.8676%2028.3282%2012.5108%2028.524C13.0752%2028.7415%2013.6366%2028.5427%2013.9999%2028.2577L18.0806%2024.4755L24.6681%2029.6092L24.825%2029.703C25.2723%2029.901%2025.7009%2030%2026.1099%2030C26.4259%2030%2026.7291%2029.9407%2027.0188%2029.8222C28.0058%2029.4172%2028.4006%2028.4775%2028.4419%2028.371L33.3624%202.81317C33.6627%201.44817%2033.2454%200.753663%2032.8416%200.412412ZM14.7257%2019.4985L12.474%2025.4985L10.2224%2017.9985L27.4849%205.24843L14.7257%2019.4985Z'%20fill='black'/%3e%3c/svg%3e",
-  y4 = "/assets/x-BPTlec88.svg";
+  y4 = "/assets/x-BPTlec88.svg",
+  linkedInIcon = "/assets/dexx.png"; // Додали іконку LinkedIn
 function U4({ className: A }) {
   const e = [
+    { name: "dexscreener", icon: linkedInIcon, url: "https://dexscreener.com/solana/9yvpQZfqM91VJG8T1DQFctrAgDkoKUsEMtzRWwRpump" }, // Додаємо новий об'єкт
     {
       name: "discoard",
       icon: C4,
-      url: "https://dex.bluemove.net/swap/0x2::sui::SUI/0xb0b6d9fa117da4f47c4895c4216cd3cad37d3b2f4425c62dbd4f4638b44e3f93::bull::BULL",
+      url: "https://www.dextools.io/app/en/solana/pair-explorer/9yvpQZfqM91VJG8T1DQFctrAgDkoKUsEMtzRWwRpump",
     },
-    { name: "twitter", icon: Q4, url: "https://t.me/SuiBullChat" },
-    { name: "twitter", icon: y4, url: "https://x.com/suibullmeme" },
+    { name: "telegram", icon: Q4, url: "https://t.me/BumasCoin" },
+    { name: "twitter", icon: y4, url: "https://x.com/BumasCoin" },
   ];
   return Q.jsx("ul", {
     className: `social-list flex items-center flex-wrap gap-2 md:gap-4 lg:gap-4 xl:gap-6 ${A}`,
@@ -15273,11 +15275,19 @@ function F4() {
                       className: "text-center lg:text-left",
                       children: "What is BUMAS?",
                     }),
-                    Q.jsx("p", {
+                    // Q.jsx("p", {
+                    //   className:
+                    //     'text-black text-[18px] md:text-[20px] lg:md:text-[20px] xl:md:text-[30px] leading-[150%] capitalize font-["Poppins"] max-w-[867px] w-full pt-5 text-center lg:text-left',
+                    //   children:
+                    //   "$BUMAS is the bullish Christmas Spirit the Solana! Part spirit, part bull, you'll see him popping up all over the place on his Xmas mission! Gains for all. <br> Join in the fun with the community, the good vibes and the be bullish on Solana BULL!",
+                    // }),
+                    Q.jsx("div", {
                       className:
-                        'text-black text-[18px] md:text-[20px] lg:md:text-[20px] xl:md:text-[30px] leading-[150%] capitalize font-["Poppins"] max-w-[867px] w-full pt-5 text-center lg:text-left',
-                      children:
-                        "$BUMAS is the bullish Christmas Spirit the Solana network! Part spirit, part bull, you'll see him popping up all over the place on his mission to become the Christmas mascot of Solana Join in the fun with the community, the good vibes and the be bullish on Solana  BULL!",
+                          'text-black text-[18px] md:text-[20px] lg:md:text-[20px] xl:md:text-[30px] leading-[150%] capitalize font-["Poppins"] max-w-[867px] w-full pt-5 text-center lg:text-left',
+                      dangerouslySetInnerHTML: {
+                        __html:
+                          "$BUMAS is the bullish Christmas Spirit the Solana! Part spirit, part bull, you'll see him popping up all over the place on his Xmas mission! Gains for all. <br> Join in the fun with the community, the good vibes and the be bullish on Solana BULL!",
+                      },
                     }),
                   ],
                 }),
@@ -15285,7 +15295,7 @@ function F4() {
                   className: "about-social flex pt-10 items-center",
                   children: [
                     Q.jsx("a", {
-                      href: "https://dex.bluemove.net/swap/0x2::sui::SUI/0xb0b6d9fa117da4f47c4895c4216cd3cad37d3b2f4425c62dbd4f4638b44e3f93::bull::BULL",
+                      href: "https://raydium.io/swap/?inputMint=sol&outputMint=9yvpQZfqM91VJG8T1DQFctrAgDkoKUsEMtzRWwRpump",
                       target: "_blank",
                       className: "btn text-lg",
                       children: "BUY NOW",
@@ -15363,7 +15373,7 @@ function I4(A) {
 }
 function x4() {
   const A =
-      "0xb0b6d9fa117da4f47c4895c4216cd3cad37d3b2f4425c62dbd4f4638b44e3f93::bull::BULL",
+      "9yvpQZfqM91VJG8T1DQFctrAgDkoKUsEMtzRWwRpump",
     [e, t] = N.useState(!1),
     r = () => {
       navigator.clipboard.writeText(A),
@@ -15561,7 +15571,7 @@ function N4() {
                   className: "flex items-center justify-center",
                   children: [
                     Q.jsx("a", {
-                      href: "https://dex.bluemove.net/swap/0x2::sui::SUI/0xb0b6d9fa117da4f47c4895c4216cd3cad37d3b2f4425c62dbd4f4638b44e3f93::bull::BULL ",
+                      href: "https://raydium.io/swap/?inputMint=sol&outputMint=9yvpQZfqM91VJG8T1DQFctrAgDkoKUsEMtzRWwRpump",
                       target: "_blank",
                       className: "btn",
                       children: "BUY NOW",
@@ -15583,7 +15593,7 @@ function _4() {
 }
 const k4 = "/assets/logo-zeLxvy5t.png",
   P4 = "/assets/footer-top-shape--i4_h7B0.png",
-  V4 = "/assets/footer-style-19j15BnH.png",
+  V4 = "/assets/footer-style-19j15BnH.gif",
   G4 = "/assets/footer-bg-shape-C9jY5_4z.png";
 function j4() {
   return Q.jsxs("div", {
