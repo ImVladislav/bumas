@@ -15563,10 +15563,11 @@ function N4() {
                   alt: "",
                 }),
                 Q.jsx("h3", { children: "Join OUR COMMUNITY!" }),
-                Q.jsx("p", {
-                  children:
-                    "Stay updated with the latest developments and important announcements by joining our Telegram group and following us on X. As we take steps towards the future together, don’t miss out on the fun and opportunities along the way!",
-                }),
+Q.jsx("p", {
+  className: "no-transform" , // Застосуйте клас для перевизначення стилю
+  children:
+    "Stay updated with the latest developments and important announcements by joining our Telegram group and following us on X. As we take steps towards the future together, don’t miss out on the fun and opportunities along the way!",
+}),
                 Q.jsxs("div", {
                   className: "flex items-center justify-center",
                   children: [

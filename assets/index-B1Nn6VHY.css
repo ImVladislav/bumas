@@ -1162,7 +1162,7 @@ body {
     line-height: 1.625;
     color: #c0c3c5;
     font-family: Titan One, sans-serif;
-    background-color: #369500
+    background-color: #00a906
 }
 
 h1,
@@ -1172,7 +1172,7 @@ h4,
 h5,
 h6 {
     font-family: Titan One, sans-serif;
-    color: #369500;
+    color: #00a906;
     text-transform: uppercase
 }
 
@@ -1210,7 +1210,7 @@ input:focus,
 textarea:focus,
 button:focus {
     outline: none;
-    border-color: #369500
+    border-color: #00a906
 }
 
 input::-webkit-outer-spin-button,
@@ -1229,7 +1229,7 @@ input[type=number] {
     padding: 24px 56px;
     border-radius: 14px;
     border: 1.33px solid #000;
-    background: #369500;
+    background: #00a906;
     box-shadow: 0 5.3px #000;
     margin-right: 20px;
     color: var(--white, #FFF);
@@ -1543,7 +1543,7 @@ input[type=number] {
     box-shadow: 2px 2px #000;
     cursor: pointer;
     padding: 14px 24px;
-    background-color: #369500;
+    background-color: #00a906;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1279px) {
@@ -1570,7 +1570,7 @@ input[type=number] {
     padding: var(--btn-padding-y) var(--btn-padding-x);
     border: none;
     background-color: transparent;
-    color: #369500;
+    color: #00a906;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2272,7 +2272,7 @@ input[type=number] {
 }
 
 .tokenmos-content ul li:first-child span {
-    color: #369500
+    color: #00a906
 }
 
 .tokenmos-content .token {
@@ -2317,7 +2317,7 @@ input[type=number] {
 }
 
 .community-content h3 {
-    color: #369500;
+    color: #00a906;
     text-shadow: 3.196px 3.196px 0px #000;
     -webkit-text-stroke-width: 1.6px;
     -webkit-text-stroke-color: var(--white, #FFF);
@@ -3455,3 +3455,6 @@ input:checked+label {
     right: .5em;
     top: 0
 }
+.no-transform {
+    text-transform: none !important; /* Примусове вимкнення трансформації */
+  }
